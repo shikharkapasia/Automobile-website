@@ -1,0 +1,130 @@
+body{margin:0;
+	padding:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;	
+	min-height: 100vh;
+
+	font-family: 'Ubuntu';
+}
+
+.formcontain{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:60vw;
+	height:80vh;
+	box-shadow: 1px 1px 10px black;
+
+}
+.formuser{ 
+	width:60%;
+	height:100%;
+	background-color:rgba(41, 241, 195, 1);
+}
+
+.formgoogle{
+	background-color: white;
+	width:40%;
+	height:100%;
+}
+.ulhead{
+	font-size:3vw;
+	color:rgba(46, 49, 49, 1);
+	margin:2vw;
+}
+.userform{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+}
+.ul1{
+	width:70%;
+	margin-left:60px;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding-top:14px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 0px;
+	border:0.3px groove grey;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px grey inset;
+	color:rgba(46, 49, 49, 0.7);
+	font-size: 17px;
+
+}
+.ul2{
+	width:70%;
+	margin-left:60px;
+	margin-bottom:40px;
+	padding-top:14px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 0px;
+	border:0.3px groove grey;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px grey inset;
+	color:rgba(46, 49, 49, 0.7);
+	font-size: 17px;
+}
+.loginbtn{
+	width:100px;
+	margin-left:60px;
+	padding:10px;
+	margin-top:10px;
+	border-radius: 20px;
+	color:white;
+	font-size: 23px;
+	background-color: rgba(0, 181, 204, 1);
+	font-weight: 700;
+	font-family: 'Ubuntu';
+	border:0.2px groove white;
+}
+.loginimg{
+	width:10vw;
+	margin-left:35%;
+	border:0.2px groove white;
+	border-radius: 300px;
+}
+.gloginimg{
+	width:20%;
+	margin-left:40%;
+	margin-top:10%;
+	border:0.5px groove white;
+	border-radius: 300px;
+}
+.googleimg{
+	 width:20%;
+	 margin-left:40%;
+	 margin-top:10%;
+}
+.gsignin{
+	font-family: 'Ubuntu';
+	font-weight:300;
+	font-size: 20px;
+	color:grey;
+	margin-left:25%;
+
+}
+.g-signin2{
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.abcRioButton {
+	width:80%!important;
+}
+
+.abcRioButtonSvgImageWithFallback{
+	width:25px!important;
+}
+.abcRioButtonContents{
+	font-size: 20px!important;
+}
+.alert{
+	position:relative;
+	top:210px;
+}
+.alert-secondary{
+	transform:translateY(-150px);
+}

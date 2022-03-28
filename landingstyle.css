@@ -1,0 +1,127 @@
+body{
+	width:100%;
+	height:100%;
+	font-family: Ubuntu;
+}
+.container1{
+background-color: #2b3137;
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+.searchbox{
+/*	background-color: #2b3137;*/
+	margin:none;
+	padding-top:20px;
+	padding-bottom:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	
+}
+.searchclass{
+	border:2px solid rgba(191, 191, 191, 1);
+	border-radius:30px 0px 0px 30px;
+	background-color: #2b3137;
+	color:rgba(191, 191, 191, 1);
+	padding:10px;
+	width:50%;
+	font-size: 17px;
+
+}
+.fa-search{
+	font-size : 20px;
+	background:linear-gradient(-90deg,rgba(191, 191, 191, 1),white);
+	padding:10px;
+	padding-right:20px;
+	padding-left:20px;
+	border:2px solid grey;
+	border-radius:0px 30px 30px 0px;
+}
+.fa-bars{
+	color:white;
+	font-size: 25px;
+	position:relative;
+	left:30px;
+}
+.rightcons{
+	display:flex;
+}
+.fa-shopping-cart{
+	color:white;
+	font-size: 25px;
+	position:relative;
+	right:100px;
+}
+.fa-bell{
+	color:white;
+	font-size: 25px;
+	position:relative;
+	right:30px;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height:500px;
+}
+.link1{
+	background-color: rgba(41, 241, 195, 1);
+	font-size: 40px;
+	color: #2b3137;
+	padding:30px;
+	border: 2px solid rgba(41, 241, 195, 1);
+	text-decoration: none;
+	border-radius: 20px;
+	font-family: Ubuntu;
+	animation-name:linkanim;
+	animation-duration:1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+
+}
+.heading{
+	font-size: 40px;
+	color: #2b3137;
+	text-align: center;
+	font-family: Ubuntu;
+	margin-top:10%;
+
+}
+
+.link1:hover{
+	font-size:50px;
+	padding:30px;
+	transition-duration: 0.7s;
+	font-weight: 900;
+}
+.link2{
+	background-color: rgba(41, 241, 195, 1);
+	font-size: 40px;
+	color: #2b3137;
+	padding:30px;
+	border: 2px solid rgba(41, 241, 195, 1);
+	text-decoration: none;
+	border-radius: 20px;
+	font-family: Ubuntu;
+	animation-name:linkanim;
+	animation-duration:1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+.link2:hover{
+	font-size:50px;
+	padding:30px;
+	transition-duration: 0.7s;
+	font-weight: 900;
+}
+
+@keyframes linkanim{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity:1;
+	}
+}
